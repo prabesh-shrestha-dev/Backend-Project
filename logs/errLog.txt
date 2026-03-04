@@ -1,0 +1,2 @@
+2026-03-04	16:16:14	8e590fcb-3199-4103-b72b-458f311f97a5	Error: Not allowed by CORS
+2026-03-04	16:33:03	e96a62c3-2def-4583-8959-ff8cdf670291	ReferenceError: next is not defined
