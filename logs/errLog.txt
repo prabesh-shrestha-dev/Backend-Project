@@ -1,2 +1,8 @@
 2026-03-04	16:16:14	8e590fcb-3199-4103-b72b-458f311f97a5	Error: Not allowed by CORS
 2026-03-04	16:33:03	e96a62c3-2def-4583-8959-ff8cdf670291	ReferenceError: next is not defined
+2026-03-04	18:44:12	1152e9f0-f54d-41c4-bd7d-3b4b2c60c3a9	TypeError: Cannot read properties of undefined (reading 'firstname')
+2026-03-04	18:44:17	4de6ff27-769d-43c6-9f25-cac6f3bc96a8	TypeError: Cannot read properties of undefined (reading 'firstname')
+2026-03-04	18:44:20	215c45cf-863c-4fca-bd8a-a2921c17b19d	TypeError: Cannot read properties of undefined (reading 'id')
+2026-03-04	18:47:41	97188c19-581d-4669-8804-18ed5eb1f881	SyntaxError: Unexpected non-whitespace character after JSON at position 30 (line 1 column 31)
+2026-03-05	08:38:18	f15ac5e5-ae0a-4597-9e3a-fe5a4d1c199a	TypeError: Cannot read properties of undefined (reading 'firstname')
+2026-03-05	08:39:12	f8c7f122-7255-407f-8ad7-37a89b994aa8	TypeError: Cannot read properties of undefined (reading 'firstname')
