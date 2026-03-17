@@ -6,3 +6,12 @@
 2026-03-04	18:47:41	97188c19-581d-4669-8804-18ed5eb1f881	SyntaxError: Unexpected non-whitespace character after JSON at position 30 (line 1 column 31)
 2026-03-05	08:38:18	f15ac5e5-ae0a-4597-9e3a-fe5a4d1c199a	TypeError: Cannot read properties of undefined (reading 'firstname')
 2026-03-05	08:39:12	f8c7f122-7255-407f-8ad7-37a89b994aa8	TypeError: Cannot read properties of undefined (reading 'firstname')
+2026-03-05	09:43:47	ebb6f6f5-229c-4880-a9c7-eb08c0f3d74c	SyntaxError: Unexpected token '`', ..."{
+  "id": `${req.par"... is not valid JSON
+2026-03-05	09:44:41	bcb06ba1-65e8-4a62-864b-a9c4ead289b9	TypeError: Cannot read properties of undefined (reading 'id')
+2026-03-05	09:44:52	39f72da9-b61f-40f1-8799-0175df61724b	TypeError: Cannot read properties of undefined (reading 'id')
+2026-03-05	09:44:55	3013077c-d001-46bb-922c-07f51f8856d7	TypeError: Cannot read properties of undefined (reading 'id')
+2026-03-05	09:49:29	fbb88a1a-11b4-4b15-a04f-20ee1e8c5b1b	TypeError: Cannot read properties of undefined (reading 'id')
+2026-03-05	09:50:08	51bfb6d3-25c0-43a6-bbad-f4e55ef4b645	TypeError: Cannot read properties of undefined (reading 'id')
+2026-03-05	09:53:25	35c1c80f-b443-458a-a0b7-1d7161d487af	TypeError: Cannot read properties of undefined (reading 'id')
+2026-03-05	09:53:33	085c2609-2f75-459b-b6da-1f0043991dfc	TypeError: Cannot read properties of undefined (reading 'id')
