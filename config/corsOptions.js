@@ -1,18 +1,16 @@
-const whitelist = [
-  'https://www.google.com', 
-  'http://127.0.0.1:5500', 
-  'http://localhost:3500'
-];
+const credentials = require('../middleware/credentials');
+const allowedOrigins = require('./allowedOrigins');
 
 const corsOptions = {
   origin: (origin, callback) => {
-    if (!origin || whitelist.includes(origin)) {
+    if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));
     }
   },
-  optionSuccessStatus: 200
+  credentials: true,
+  optionsSuccessStatus: 200
 }
 
 module.exports = corsOptions;
