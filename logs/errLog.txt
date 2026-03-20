@@ -1,5 +1,0 @@
-2026-03-18	15:02:36	41badb0f-47cf-4f09-9e35-23c458a8e8a3	Error: "expireIn" is not allowed in "options"
-2026-03-19	15:54:49	8dc273a4-160a-4541-92c7-0e069168f94c	Error: Not allowed by CORS
-2026-03-19	23:55:09	87b424a8-3155-4c1d-af99-c6dab58fdcde	Error: Not allowed by CORS
-2026-03-19	23:55:14	0e4a7e02-5bc3-4413-bb36-2f6c4d5829c3	Error: Not allowed by CORS
-2026-03-19	23:59:37	4ec40e0f-3f29-4531-bac4-18cf171c851d	Error: Not allowed by CORS
