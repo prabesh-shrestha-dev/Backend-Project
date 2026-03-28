@@ -5,7 +5,7 @@ const app = express();
 const path = require('path');
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
-const { logger } = require('./middleware/logEvents');
+// const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
@@ -20,7 +20,7 @@ connectDB();
 // Waterfall middleware handling by express
 
 //custom middleware loggger 
-app.use(logger);
+// app.use(logger);
 
 // Handle options credentials check - before CORS!
 // and fetch cookies credentials requirements
@@ -50,6 +50,7 @@ app.use('/logout', require('./routes/logout'));
 
 app.use(verifyJWT);
 app.use('/employees', require('./routes/api/employees'));
+app.use('/users', require('./routes/api/users'));
 
 app.all('/{*splat}', (req, res) => {
   res.status(404);
